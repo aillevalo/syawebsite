@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gothic Fantasy Homepage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="content">
+      <h1>TRAVEL INTO OTHER WORLDS FILLED WITH MAGIC, MYSTERY AND ADVENTURE</h1>
+      <p>When we read, reality softens. The ordinary fades.
+      And we step into realms where magic lives, Mysteries unfold, And adventure waits around every corner</p>
+    </div>
+  </header>
+
+  <section class="section books-container" id="booksSection">
+    <div class="mist-overlay"></div>
+    <h2>THE TOME THAT CAPTIVATES MY HEART</h2>
+    <div class="books">
+      <a href="twilight.html"><img src="pic/Book 1.jpg" alt="Twilight"></a>
+      <a href="it.html"><img src="pic/Book 2.jpg" alt="It"></a>
+      <a href="dear-john.html"><img src="pic/Book 3.jpeg" alt="dear-john"></a>
+      <a href="willyoustay.html"><img src="pic/Book 4.jpeg" alt="Will You Stay?"></a>
+      <a href="you'vereachedsam.html"><img src="pic/Book 5.jpeg" alt="Sam"></a>
+    </div>
+  </section>
+
+  <!-- SOUL SECTION -->
+  <section class="about-section" id="about-section">
+    <div class="floral-container">
+      <h2>THE SOUL BEHIND THE STORIES</h2>
+      <hr class="divider">
+      <nav class="intro-nav">
+        <a href="javascript:void(0)" onclick="showSection('about')">About</a>
+        <a href="javascript:void(0)" onclick="showSection('obsession')">Obsession</a>
+      </nav>
+      <hr class="divider">
+
+      <div class="tab-content-container">
+
+        <!-- ABOUT CONTENT -->
+        <div id="about" class="tab-section active-tab">
+          <div class="about-wrapper">
+            <div class="about-photo">
+              <img src="pic/me.jpg" alt="Portrait">
+            </div>
+            <div class="about-content">
+              <div class="about-box">
+                <h3>ABOUT ME</h3>
+                 <p>
+    I’m currently a Semester 2 student of <strong>Mass Communication (MC112)</strong> at UiTM Lendu, Melaka. Recently, I started learning how to code — and this website is the result of that journey. It’s not perfect, but it’s mine. A digital corner that reflects the things I love: stories, mystery, music, and a little bit of melancholy beauty.<br><br>
+
+ 
+   I find pieces of myself in fading lights, rainy nights, and lyrics I wish I wrote.
+  </p>
+              </div>
+              <div class="about-box contact-box" id="contact">
+                <div class="contact-row">
+                  <h3>CONTACT</h3>
+                  <div class="contact-icons">
+                    <a href="https://www.instagram.com/aisyahruddy"><img src="pic/insta.jpg" alt="Insta"></a>
+                    <a href="https://t.me/sntwz"><img src="pic/tele.jpg" alt="Tele"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- OBSESSION CONTENT -->
+        <div id="obsession" class="tab-section grunge-obsession">
+          <div class="grunge-texture"></div>
+
+          <div class="obsession-wrapper">
+            <div class="obsession-box left-box">
+              <img src="pic/band.jpg" alt="Luciel Portrait" class="obsession-img">
+            </div>
+
+            <div class="obsession-box center-box">
+              <div class="album-glow-wrapper">
+                <div class="album-glow"></div>
+                <img src="pic/album.jpg" alt="Album Cover" class="album-cover" id="albumImage">
+              </div>
+              <div class="song-title">Poison Girl – HIM</div>
+              <button class="play-button" id="playBtn">▶️ Play</button>
+              <audio id="albumAudio">
+                <source src="../original sound - undertherosev_1752587285_musicaldown.com.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+
+            <div class="obsession-box right-box">
+              <img src="pic/ville.jpg" alt="Obsessions ville" class="obsession-img">
+            </div>
+          </div>
+
+          <div class="obsession-bottom-box">
+            <p><strong>HIM</strong> (His Infernal Majesty) is a legendary gothic rock band from Helsinki, Finland, formed in <strong>1991</strong>. They rose to fame by blending melancholic lyrics, metal guitar riffs, and romantic despair — a genre they called <em>“Love Metal.”</em><br><br> But what truly captivates me is <strong>Ville Valo</strong>, the poetic, tortured soul behind it all. With his haunting baritone voice, deep lyrics about love and loss, and striking gothic looks, Ville became the heart of HIM. <br><br>
+
+    Behind the scenes, Ville struggled with <em>alcoholism, anxiety, and creative pressure</em>. He often wrote about loneliness, addiction, and emotional numbness. Yet, he turned his demons into songs that understood mine. <br><br>
+  I’m obsessed not just with his music, but with the way Ville turned pain into poetry. He made heartbreak feel romantic, and darkness feel like home.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <button id="scrollTopBtn" title="Go to top">
+    <img src="pic/656fe6e3cb11e6a3e3a93e12d5bd575d.gif" alt="Scroll to top" style="width: 40px; height: 40px;">
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
